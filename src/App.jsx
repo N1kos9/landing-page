@@ -92,9 +92,13 @@ function App() {
           </p>
           <p className="">
             Ready to work togheter? Let's
-            <a href="underline underline-offset-8"> get started</a>
+            <a href="" className="hover:underline hover:underline-offset-8">
+              get started
+            </a>
           </p>
         </div>
+        <hr />
+        <div className="p-3 text-2xl">© Nikos</div>
       </div>
     </>
   );
