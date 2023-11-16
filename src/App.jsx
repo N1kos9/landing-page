@@ -86,12 +86,13 @@ function App() {
             and dividing everyones requirement
           </div>
         </div>
-        <div className="md:mt-56 mt-36 flex flex-col text-left items-end">
+        <div className="md:mt-56 mt-36 flex flex-col text-left items-end text-xl">
           <p className="">
             Borned in Romania, and visited all the beatyes places. Give it a try
           </p>
           <p className="">
-            Ready to work togheter? Let's <a href="">get started</a>
+            Ready to work togheter? Let's
+            <a href="underline underline-offset-8"> get started</a>
           </p>
         </div>
       </div>
