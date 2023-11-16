@@ -86,7 +86,7 @@ function App() {
             and dividing everyones requirement
           </div>
         </div>
-        <div className="md:mt-56 mt-36 flex flex-col text-left items-end text-xl">
+        <div className="p-3 md:mt-56 mt-36 flex flex-col text-left items-end text-xl">
           <p className="">
             Borned in Romania, and visited all the beatyes places. Give it a try
           </p>
@@ -97,8 +97,18 @@ function App() {
             </a>
           </p>
         </div>
-        <hr />
-        <div className="p-3 text-2xl">© Nikos</div>
+        <hr className="mt-10" />
+        <div className=" p-3 text-2xl flex justify-between">
+          <h1>© Nikos</h1>
+          <div className="flex gap-4">
+            <a href="" className="">
+              Github
+            </a>
+            <a href="" className="">
+              Linkedin
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );
