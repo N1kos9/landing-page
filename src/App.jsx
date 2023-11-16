@@ -86,6 +86,14 @@ function App() {
             and dividing everyones requirement
           </div>
         </div>
+        <div className="md:mt-56 mt-36 flex flex-col text-left items-end">
+          <p className="">
+            Borned in Romania, and visited all the beatyes places. Give it a try
+          </p>
+          <p className="">
+            Ready to work togheter? Let's <a href="">get started</a>
+          </p>
+        </div>
       </div>
     </>
   );
