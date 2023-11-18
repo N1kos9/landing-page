@@ -96,7 +96,6 @@ function App() {
           <h1 className="">Here’s what you can expect from me...</h1>
         </div>
         <Slides />
-
         <div className="p-3 md:mt-56 mt-36 flex flex-col text-left items-end text-xl">
           <p className="">
             Borned in Romania, and visited all the beatyes places. Give it a try
