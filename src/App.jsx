@@ -12,26 +12,54 @@ function App() {
   return (
     <>
       <div className="w-full max-w-[1280px] px-5 md:px-10 mx-auto font-mono">
-        <div className="text-xl p-5 text-black/[0.8] text-right">
-          <a href="" className="p-3">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.0, delay: 3.5 }}
+          className="text-xl p-5 text-black/[0.8] text-right"
+        >
+          <a
+            href="https://github.com/N1kos9"
+            target={"_blank"}
+            className="p-3 hover:underline hover:underline-offset-8"
+          >
             Github
           </a>
-          <a href="" className="p-3">
+          <a
+            target={"_blank"}
+            href="https://www.linkedin.com/in/nikos-m-631366284/"
+            className="p-3 hover:underline hover:underline-offset-8"
+          >
             Linkedin
           </a>
-        </div>
-        <div className="mt-16 text-5xl md:text-9xl font-semibold">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 2.0, delay: 1.0 }}
+          className="mt-16 text-6xl md:text-9xl font-semibold"
+        >
           <h1>
             Hey <br /> I'm Nikos
           </h1>
-        </div>
-        <div className="mt-12 text-justify md:text-4xl flex justify-end mr-8">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.0, delay: 2.0 }}
+          className="mt-12 text-justify md:text-4xl text-2xl flex justify-end mr-8"
+        >
           <h2 className="md:w-5/6 text-right">
             a web developer, specialised in front-end position, team leader and
             dream maker.
           </h2>
-        </div>
-        <div className="flex justify-center md:mt-56 mt-36">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.0, delay: 3.5 }}
+          className="flex justify-center md:mt-56 mt-36"
+        >
           <motion.img
             ref={ref}
             style={{ scale: scrollYProgress, opacity: 1 }}
@@ -39,7 +67,7 @@ function App() {
             className="rounded-3xl"
             alt=""
           />
-        </div>
+        </motion.div>
         <div className="md:text-3xl text-base mt-48 flex justify-end">
           <p className="md:w-5/6 text-justify">
             I’ve spent a couple of decades creating brands and digital products
@@ -68,32 +96,18 @@ function App() {
           <h1 className="">Here’s what you can expect from me...</h1>
         </div>
         <Slides />
-        {/* <div className="flex items-center   bg-cyan-300 rounded-3xl min-h-[400px] p-10">
-            I’ll bring colour, big energy and oriented problem solving thinking.
-          </div>
-          <div className="flex items-center   bg-red-500 rounded-3xl min-h-[400px] md:col-span-2 p-10">
-            Learning, and surpassing any challenges that occurs, by different
-            methods
-          </div>
-          <div className="flex items-center  bg-purple-400 rounded-3xl min-h-[400px] md:col-span-3   p-10">
-            Bridge the gap between creative and commercial objectives — speaking
-            both languages.
-          </div>
-          <div className="flex items-center  bg-green-400 rounded-3xl min-h-[400px]  p-10">
-            Teach teams to move at velocity and have a hell of a lot of fun
-            doing it.
-          </div>
-          <div className=" flex items-center  bg-yellow-300 rounded-3xl min-h-[400px]  md:col-span-2 p-10">
-            I will bring leadership into the team, managing high scale projects
-            and dividing everyones requirement
-          </div> */}
+
         <div className="p-3 md:mt-56 mt-36 flex flex-col text-left items-end text-xl">
           <p className="">
             Borned in Romania, and visited all the beatyes places. Give it a try
           </p>
           <p className="">
-            Ready to work togheter? Let's
-            <a href="" className="hover:underline hover:underline-offset-8">
+            Ready to work togheter? Let's&nbsp;
+            <a
+              href="mailto:onkl3p@gmail.com"
+              target="_blank"
+              className="hover:underline hover:underline-offset-8"
+            >
               get started
             </a>
           </p>
@@ -102,10 +116,18 @@ function App() {
         <div className=" p-3 text-2xl flex justify-between">
           <h1>© Nikos</h1>
           <div className="flex gap-4">
-            <a href="" className="">
+            <a
+              href="https://github.com/N1kos9"
+              target={"_blank"}
+              className="hover:underline hover:underline-offset-8"
+            >
               Github
             </a>
-            <a href="" className="">
+            <a
+              target={"_blank"}
+              href="https://www.linkedin.com/in/nikos-m-631366284/"
+              className="hover:underline hover:underline-offset-8"
+            >
               Linkedin
             </a>
           </div>
