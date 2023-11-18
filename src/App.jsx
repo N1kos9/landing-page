@@ -70,10 +70,10 @@ function App() {
         </motion.div>
         <div className="md:text-3xl text-base mt-48 flex justify-end">
           <p className="md:w-5/6 text-justify">
-            I’ve spent a couple of decades creating brands and digital products
-            and obsessing over what makes them fly. I have a creative studio
-            called The Workshop and invest in early-stage ventures —
-            collaborating on brave ideas with amazing people.
+            I’ve spent a couple of years creating and exploring products and
+            obsessing over what makes them fly. I have a creative studio called
+            The Workshop and invest in early-stage ventures — collaborating on
+            brave ideas with amazing people.
           </p>
         </div>
         <div className="md:text-4xl mt-24  flex justify-end ">
