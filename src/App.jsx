@@ -15,7 +15,7 @@ function App() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1.0, delay: 3.5 }}
+          transition={{ duration: 1.0, delay: 2.5 }}
           className="text-xl p-5 text-black/[0.8] text-right"
         >
           <a
@@ -36,7 +36,7 @@ function App() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 2.0, delay: 1.0 }}
+          transition={{ duration: 2.0, delay: 0.5 }}
           className="mt-16 text-6xl md:text-9xl font-semibold"
         >
           <h1>
@@ -46,7 +46,7 @@ function App() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1.0, delay: 2.0 }}
+          transition={{ duration: 1.0, delay: 1.0 }}
           className="mt-12 text-justify md:text-4xl text-2xl flex justify-end mr-8"
         >
           <h2 className="md:w-5/6 text-right">
@@ -57,7 +57,7 @@ function App() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1.0, delay: 3.5 }}
+          transition={{ duration: 1.0, delay: 2.5 }}
           className="flex justify-center md:mt-56 mt-36"
         >
           <motion.img
