@@ -1,6 +1,6 @@
 import { motion, useScroll } from "framer-motion";
 import { useRef } from "react";
-import Slides from "./components/slides";
+import Slides from "../src/components/Slides.jsx";
 
 function App() {
   const ref = useRef(null);
