@@ -1,5 +1,6 @@
 import { motion, useScroll } from "framer-motion";
 import { useRef } from "react";
+import Slides from "./components/slides";
 
 function App() {
   const ref = useRef(null);
@@ -7,6 +8,7 @@ function App() {
     target: ref,
     offset: ["0 4", "1.33 1"],
   });
+
   return (
     <>
       <div className="w-full max-w-[1280px] px-5 md:px-10 mx-auto font-mono">
@@ -65,8 +67,8 @@ function App() {
         <div className="mt-16 text-5xl md:text-8xl font-semibold">
           <h1 className="">Here’s what you can expect from me...</h1>
         </div>
-        <div className="tracking-widest mt-24 grid grid-cols-1 md:grid-cols-3 gap-10 font-semibold text-4xl ">
-          <div className="flex items-center   bg-cyan-300 rounded-3xl min-h-[400px] p-10">
+        <Slides />
+        {/* <div className="flex items-center   bg-cyan-300 rounded-3xl min-h-[400px] p-10">
             I’ll bring colour, big energy and oriented problem solving thinking.
           </div>
           <div className="flex items-center   bg-red-500 rounded-3xl min-h-[400px] md:col-span-2 p-10">
@@ -84,8 +86,7 @@ function App() {
           <div className=" flex items-center  bg-yellow-300 rounded-3xl min-h-[400px]  md:col-span-2 p-10">
             I will bring leadership into the team, managing high scale projects
             and dividing everyones requirement
-          </div>
-        </div>
+          </div> */}
         <div className="p-3 md:mt-56 mt-36 flex flex-col text-left items-end text-xl">
           <p className="">
             Borned in Romania, and visited all the beatyes places. Give it a try
