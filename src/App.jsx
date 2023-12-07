@@ -65,7 +65,7 @@ function App() {
             style={{ scale: scrollYProgress, opacity: 1 }}
             src="/eye.jpg"
             className="rounded-3xl"
-            alt=""
+            alt="art-image"
           />
         </motion.div>
         <div className="md:text-3xl text-base mt-48 flex justify-end">
