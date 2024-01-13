@@ -70,26 +70,24 @@ function App() {
         </motion.div>
         <div className="md:text-3xl text-base mt-48 flex justify-end">
           <p className="md:w-5/6 text-justify">
-            I’ve spent a couple of years creating and exploring products and
-            obsessing over what makes them fly. I have a creative studio called
-            The Workshop and invest in early-stage ventures — collaborating on
-            brave ideas with amazing people.
+            Originally from Romania, I am an 18 years old guy who started his
+            web journey at 17 years old, with the purpose of pursuing a good
+            career for my future
           </p>
         </div>
         <div className="md:text-4xl mt-24  flex justify-end ">
           <h2 className="text-justify md:w-5/6 font-black">
-            I’m now going directly to the source of what makes or breaks a brand
-            — people.
+            I’ve spent a good amount of time creating projects and testing my
+            ideas trough web envirement in order to specialise in web industry
           </h2>
         </div>
         <div className="md:text-3xl text-base mt-24 flex justify-end">
           <p className="md:w-5/6 text-justify">
             I’m looking for impact-driven orgs with a creative team in place,
-            but aren’t seeing the outcomes they‘re looking for. They have the
-            headcount and skillset, but something isn’t clicking. Maybe it’s
-            cultural, perhaps it’s the standard of work or a misalignment
-            between creative and commercial objectives. I’m here to solve these
-            problems.
+            that are spontaneous and well prepared. They have the headcount and
+            skillset, and need someone to adapt theyre ideas into reality. Maybe
+            an organisation, or a culture, perhaps the structure, I am here to
+            make your ideas to bring life.
           </p>
         </div>
         <div className="mt-16 text-5xl md:text-8xl font-semibold">
