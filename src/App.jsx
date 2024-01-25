@@ -72,13 +72,13 @@ function App() {
           <p className="md:w-5/6 text-justify">
             Originally from Romania, I am an 18 years old guy who started his
             web journey at 17 years old, with the purpose of pursuing a good
-            career for my future
+            career for my future.
           </p>
         </div>
         <div className="md:text-4xl mt-24  flex justify-end ">
           <h2 className="text-justify md:w-5/6 font-black">
             I’ve spent a good amount of time creating projects and testing my
-            ideas trough web envirement in order to specialise in web industry
+            ideas trough web envirement in order to specialise in web industry.
           </h2>
         </div>
         <div className="md:text-3xl text-base mt-24 flex justify-end">
