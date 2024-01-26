@@ -10,7 +10,7 @@ const Slides = () => {
           </div>
           <div className="flex items-center   bg-red-500 rounded-3xl min-h-[400px] md:col-span-2 p-10">
             Learning, and surpassing any challenges that occurs, by different
-            methods
+            methods.
           </div>
           <div className="flex items-center  bg-purple-400 rounded-3xl min-h-[400px] md:col-span-3   p-10">
             Bridge the gap between solving problems and creating new routes —
@@ -18,7 +18,7 @@ const Slides = () => {
           </div>
           <div className=" flex items-center  bg-yellow-300 rounded-3xl min-h-[400px]  md:col-span-2 p-10">
             I will bring leadership into the team, managing high scale projects
-            and dividing everyones requirement
+            and dividing everyones requirement.
           </div>
           <div className="flex items-center  bg-green-400 rounded-3xl min-h-[400px]  p-10">
             Teach teams to move at velocity and have a hell of a lot of fun
