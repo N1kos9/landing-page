@@ -40,7 +40,7 @@ function App() {
           className="mt-16 text-6xl md:text-9xl font-semibold"
         >
           <h1>
-            Hey <br /> I'm Nikos
+            Hey <br /> I'm Nikos.
           </h1>
         </motion.div>
         <motion.div
@@ -105,7 +105,7 @@ function App() {
               target="_blank"
               className="hover:underline hover:underline-offset-8"
             >
-              get started
+              get started.
             </a>
           </p>
         </div>
