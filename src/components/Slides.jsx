@@ -3,6 +3,7 @@ import React from "react";
 const Slides = () => {
   return (
     <>
+
       <section>
         <div className="tracking-widest mt-24 text-3xl grid grid-cols-1 md:grid-cols-3 gap-10 font-semibold md:text-4xl ">
           <div className="flex items-center  bg-cyan-300 rounded-3xl min-h-[400px] p-10">
